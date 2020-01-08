@@ -7,8 +7,6 @@ COPY requirements.txt .
 
 RUN pip install --upgrade -r requirements.txt
 
-RUN pip uninstall PIL
-
 RUN pip uninstall Pillow
 
 RUN pip install Pillow
