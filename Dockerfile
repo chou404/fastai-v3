@@ -9,7 +9,7 @@ RUN pip install --upgrade -r requirements.txt
 
 RUN pip uninstall --yes Pillow
 
-RUN pip install 'Pillow=6.1' --force-reinstall
+RUN pip install 'Pillow==6.1' --force-reinstall
 
 COPY app app/
 
